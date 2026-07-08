@@ -1,97 +1,136 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# CrewAssignment
 
-# Getting Started
+A React Native (0.86, New Architecture) travel feed with a performant list of ~137 trips,
+an AI chat assistant in a bottom-sheet overlay, and a built-in performance overlay
+(FPS / dropped frames / JS-thread busy / frame-time percentiles).
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+---
 
-## Step 1: Start Metro
+## Setup
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+**Prerequisites**
+- Node **>= 22.11** (see `engines` in `package.json`)
+- Ruby + Bundler + CocoaPods (iOS)
+- JDK 17, Android SDK, a connected device or emulator (Android)
 
-To start the Metro dev server, run the following command from the root of your React Native project:
-
-```sh
-# Using npm
-npm start
-
-# OR using Yarn
-yarn start
+**Install**
+```bash
+npm install
+# iOS only:
+cd ios && bundle install && bundle exec pod install && cd ..
 ```
 
-## Step 2: Build and run your app
+**Run**
+```bash
+# Terminal 1 — Metro (use --reset-cache the first time after any babel change):
+npm start            # or: npm start -- --reset-cache
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
-# Using npm
-npm run android
-
-# OR using Yarn
-yarn android
+# Terminal 2:
+npm run android      # or: npm run ios
 ```
 
-### iOS
+> **Physical Android device gotcha:** the app loads its JS from Metro over
+> `adb reverse tcp:8081 tcp:8081`. If the app hangs on *"Loading from
+> localhost:8081…"*, the USB tunnel has stalled — run
+> `adb reverse tcp:8081 tcp:8081` (or `adb kill-server && adb start-server`,
+> then re-add the reverse) and reload.
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+> **Native modules:** Reanimated, Worklets, gesture-handler, screens,
+> safe-area-context, and fast-image are native. After adding/upgrading any of
+> them you must rebuild the app (`npm run android` / `pod install` + `npm run ios`),
+> not just restart Metro.
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+---
 
-```sh
-bundle install
+## Architecture
+
+Single-screen navigation; the AI is an overlay, not a route.
+
+```
+index.js  ── import 'react-native-gesture-handler' (first line)
+   │
+App.tsx
+   └─ GestureHandlerRootView
+        └─ SafeAreaProvider
+             ├─ AppNavigator            (NavigationContainer → native-stack)
+             │    └─ FeedScreen         ← the only route ("Explore Trips")
+             │         ├─ FlatList<Trip>
+             │         │     └─ TripCard (React.memo)
+             │         │          ├─ FastImage + ImageSkeleton
+             │         │          └─ Timeline (mounted only when expanded)
+             │         ├─ Fab           (absolute, opens the sheet)
+             │         └─ BottomSheetChat (@gorhom/bottom-sheet, snaps 40%/90%)
+             │              └─ ChatPanel → MessageBubble (React.memo)
+             └─ PerformanceOverlay      (always-on-top; useFPS + useJSThread)
 ```
 
-Then, and every time you update your native dependencies, run:
+**Folder layout** (`src/`)
 
-```sh
-bundle exec pod install
-```
+| Folder | Contents |
+|---|---|
+| `screens/` | `FeedScreen` — the feed + FAB + sheet |
+| `navigation/` | `AppNavigator` — single native-stack route |
+| `components/` | `TripCard`, `Timeline`, `ImageSkeleton`, `Fab`, `BottomSheetChat`, `ChatPanel`, `MessageBubble`, `PerformanceOverlay` |
+| `hooks/` | `useFPS` (rAF frame stats), `useJSThread` (event-loop delay) |
+| `services/` | `mockAI` — simulated streaming LLM |
+| `store/` | `chatStore` — zustand chat state |
+| `utils/` | `now` — high-res timestamp helper |
+| `assets/` | `trips.json` — 137 mock trips |
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+**Key flows**
+- **Feed → chat:** the FAB calls `sheetRef.current?.snapToIndex(0)` to open the
+  sheet to 40%. The sheet renders as a sibling of the `FlatList`, so opening it
+  **overlays the feed without unmounting it**.
+- **Expandable timeline:** pressing *Details* flips local `expanded` state; the
+  horizontal `Timeline` is **mounted only while expanded** and animates in with
+  Reanimated (`useSharedValue` + `withTiming`).
+- **Streaming chat:** `sendMessage` appends a user message + an empty assistant
+  placeholder, then `mockAI.streamReply` emits the reply word-by-word;
+  `appendBotToken` updates **only the latest** message object.
+- **Performance overlay:** the top-right 📊 button toggles the panel; measuring
+  runs only while visible. `useFPS` samples `requestAnimationFrame` frame times;
+  `useJSThread` measures event-loop delay via `setTimeout(0)`.
 
-```sh
-# Using npm
-npm run ios
+---
 
-# OR using Yarn
-yarn ios
-```
+## State management rationale
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+Two intentionally separate concerns:
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+1. **Feed data** is static (`trips.json`) → imported as a module-level constant
+   (`TRIPS`). No store, no context: a stable reference that never triggers
+   re-renders. `TripCard` is `React.memo`, and `renderItem`/`keyExtractor` are
+   `useCallback`, so scrolling never re-renders visible cards.
 
-## Step 3: Modify your app
+2. **Chat state** is dynamic and updates rapidly during streaming → **zustand**.
+   Zustand was chosen over Context/Redux because:
+   - **Selector subscriptions**: components subscribe to *slices*
+     (`useChatStore(s => s.messages)`), so a token update re-renders only the
+     chat list — not every consumer, as a Context value change would.
+   - **No provider tree**: the store is a hook; nothing needs to wrap the app.
+   - **Minimal boilerplate** vs. Redux for a small, well-scoped slice of state.
 
-Now that you have successfully run the app, let's make changes!
+   **The critical rule: the feed never subscribes to the chat store.** Streaming
+   fires many state updates per second; because only `ChatPanel` (inside the
+   sheet) reads the store, none of that churn reaches the 137-item feed.
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+---
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+## Known limitations
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+- **Mock AI only.** `services/mockAI.ts` returns canned, word-streamed replies;
+  there is no real LLM/network call.
+- **`react-native-vector-icons` is installed but unused** — the FAB and overlay
+  use emoji to avoid iOS font-registration/native setup for this assignment.
+- **`react-native-fast-image` swapped for `@d11/react-native-fast-image`** — the
+  original is unmaintained and doesn't support React 19 / New Architecture.
+- **Verified on Android** (physical device, New Arch). iOS is wired but was not
+  run as part of this exercise; `pod install` is required first.
+- **No persistence / offline** for chat; state is in-memory and cleared on reload.
+- **No automated tests** beyond the RN template's `App.test.tsx`; verification
+  was done via typecheck, lint, and on-device inspection.
+- **Timeline collapse is not animated** (mounting is gated on `expanded`, so
+  there's no exit animation — only the entrance animates).
+- **Node 22+ required**; running on Node 20 produces `EBADENGINE` warnings.
 
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+See [PERFORMANCE.md](./PERFORMANCE.md) for the profiling methodology and results.

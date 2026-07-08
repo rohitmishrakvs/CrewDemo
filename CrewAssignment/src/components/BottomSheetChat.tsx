@@ -1,6 +1,9 @@
-import React, {forwardRef, useMemo} from 'react';
-import BottomSheet from '@gorhom/bottom-sheet';
-import {ChatPanel} from './ChatPanel';
+import React, {forwardRef, useCallback, useMemo} from 'react';
+import BottomSheet, {
+  BottomSheetFooter,
+  BottomSheetFooterProps,
+} from '@gorhom/bottom-sheet';
+import {ChatFooter, ChatPanel} from './ChatPanel';
 
 export type BottomSheetChatRef = React.ComponentRef<typeof BottomSheet>;
 
@@ -15,6 +18,18 @@ export type BottomSheetChatRef = React.ComponentRef<typeof BottomSheet>;
 export const BottomSheetChat = forwardRef<BottomSheetChatRef>((_props, ref) => {
   const snapPoints = useMemo(() => ['40%', '90%'], []);
 
+  // Pins the input to the bottom of the sheet's VISIBLE area at every snap
+  // point (the content itself is sized to the largest snap point, so a plain
+  // bottom-aligned input would sit below the fold until dragged up).
+  const renderFooter = useCallback(
+    (props: BottomSheetFooterProps) => (
+      <BottomSheetFooter {...props}>
+        <ChatFooter />
+      </BottomSheetFooter>
+    ),
+    [],
+  );
+
   return (
     <BottomSheet
       ref={ref}
@@ -24,7 +39,10 @@ export const BottomSheetChat = forwardRef<BottomSheetChatRef>((_props, ref) => {
       enableDynamicSizing={false}
       keyboardBehavior="interactive"
       keyboardBlurBehavior="restore"
-      android_keyboardInputMode="adjustResize">
+      android_keyboardInputMode="adjustResize"
+      footerComponent={renderFooter}
+      backgroundStyle={{backgroundColor: '#f4eeee'}}>
+      
       <ChatPanel />
     </BottomSheet>
   );

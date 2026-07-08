@@ -56,8 +56,8 @@ export function PerformanceOverlay() {
     [insets.top],
   );
   const toggleStyle = useMemo(
-    () => [styles.toggle, {bottom: insets.bottom + 30}],
-    [insets.bottom],
+    () => [styles.toggle, {top: insets.top + 8}],
+    [insets.top],
   );
 
   return (
@@ -119,7 +119,7 @@ const styles = StyleSheet.create({
   valBad: {color: '#ff4d4f'},
   toggle: {
     position: 'absolute',
-    left: 20,
+    right: 20,
     zIndex: 9999,
     elevation: 9999,
     width: 44,
