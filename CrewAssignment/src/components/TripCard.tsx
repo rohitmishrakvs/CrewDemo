@@ -1,4 +1,4 @@
-import React, {useCallback, useState} from 'react';
+import React, {useCallback, useMemo, useState} from 'react';
 import {Pressable, StyleSheet, Text, View} from 'react-native';
 import FastImage from '@d11/react-native-fast-image';
 import {ImageSkeleton} from './ImageSkeleton';
@@ -38,13 +38,19 @@ function TripCardComponent({trip}: Props) {
   const toggleDetails = useCallback(() => setExpanded(prev => !prev), []);
   const onLoadEnd = useCallback(() => setLoaded(true), []);
 
+  // Stable source object so FastImage doesn't see a new prop on local re-renders.
+  const source = useMemo(
+    () => ({uri: trip.image, priority: FastImage.priority.normal}),
+    [trip.image],
+  );
+
   return (
     <View style={styles.card}>
       {/* Image + badge overlay */}
       <View style={styles.imageWrap}>
         <FastImage
           style={styles.image}
-          source={{uri: trip.image, priority: FastImage.priority.normal}}
+          source={source}
           resizeMode={FastImage.resizeMode.cover}
           onLoadEnd={onLoadEnd}
         />
