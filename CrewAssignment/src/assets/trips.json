@@ -1,23 +1,3849 @@
 [
   {
     "id": "1",
-    "title": "Sunrise over Kyoto",
-    "location": "Kyoto, Japan",
-    "durationDays": 5,
-    "cover": "https://picsum.photos/seed/kyoto/800/600"
+    "destination": "Kyoto, Japan",
+    "image": "https://picsum.photos/seed/kyoto1/800/600",
+    "badge": "Trending",
+    "price": 1649,
+    "duration": 3,
+    "rating": 4.2,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Kyoto",
+        "description": "Land in Kyoto, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Kyoto",
+        "description": "A guided walk through Kyoto's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Kyoto."
+      }
+    ]
   },
   {
     "id": "2",
-    "title": "Patagonia Trek",
-    "location": "Torres del Paine, Chile",
-    "durationDays": 8,
-    "cover": "https://picsum.photos/seed/patagonia/800/600"
+    "destination": "Tokyo, Japan",
+    "image": "https://picsum.photos/seed/tokyo2/800/600",
+    "badge": "Popular",
+    "price": 2099,
+    "duration": 4,
+    "rating": 4.3,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tokyo",
+        "description": "Land in Tokyo, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Tokyo",
+        "description": "A guided walk through Tokyo's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Tokyo."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Tokyo."
+      }
+    ]
   },
   {
     "id": "3",
-    "title": "Amalfi Coast Drive",
-    "location": "Amalfi, Italy",
-    "durationDays": 4,
-    "cover": "https://picsum.photos/seed/amalfi/800/600"
+    "destination": "Osaka, Japan",
+    "image": "https://picsum.photos/seed/osaka3/800/600",
+    "badge": "Luxury",
+    "price": 2449,
+    "duration": 3,
+    "rating": 4.9,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Osaka",
+        "description": "Land in Osaka, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Osaka",
+        "description": "A guided walk through Osaka's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Osaka."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "destination": "Bali, Indonesia",
+    "image": "https://picsum.photos/seed/bali4/800/600",
+    "badge": "Editor's Choice",
+    "price": 1099,
+    "duration": 3,
+    "rating": 4.6,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Bali",
+        "description": "Land in Bali, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Bali",
+        "description": "A guided walk through Bali's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Bali."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "destination": "Bangkok, Thailand",
+    "image": "https://picsum.photos/seed/bangkok5/800/600",
+    "badge": "Honeymoon",
+    "price": 649,
+    "duration": 3,
+    "rating": 4.8,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Bangkok",
+        "description": "Land in Bangkok, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Bangkok",
+        "description": "A guided walk through Bangkok's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Bangkok."
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "destination": "Chiang Mai, Thailand",
+    "image": "https://picsum.photos/seed/chiangmai6/800/600",
+    "badge": "Limited",
+    "price": 1549,
+    "duration": 3,
+    "rating": 4.1,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Chiang Mai",
+        "description": "Land in Chiang Mai, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Chiang Mai",
+        "description": "A guided walk through Chiang Mai's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Chiang Mai."
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "destination": "Phuket, Thailand",
+    "image": "https://picsum.photos/seed/phuket7/800/600",
+    "badge": "Editor's Choice",
+    "price": 499,
+    "duration": 4,
+    "rating": 4.6,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Phuket",
+        "description": "Land in Phuket, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Phuket",
+        "description": "A guided walk through Phuket's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Phuket."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Phuket."
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "destination": "Hanoi, Vietnam",
+    "image": "https://picsum.photos/seed/hanoi8/800/600",
+    "badge": "Editor's Choice",
+    "price": 1449,
+    "duration": 3,
+    "rating": 4.7,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Hanoi",
+        "description": "Land in Hanoi, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Hanoi",
+        "description": "A guided walk through Hanoi's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Hanoi."
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "destination": "Ho Chi Minh City, Vietnam",
+    "image": "https://picsum.photos/seed/hochiminhcity9/800/600",
+    "badge": "Editor's Choice",
+    "price": 1549,
+    "duration": 4,
+    "rating": 4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Ho Chi Minh City",
+        "description": "Land in Ho Chi Minh City, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Ho Chi Minh City",
+        "description": "A guided walk through Ho Chi Minh City's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Ho Chi Minh City."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Ho Chi Minh City."
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "destination": "Siem Reap, Cambodia",
+    "image": "https://picsum.photos/seed/siemreap10/800/600",
+    "badge": "Deal",
+    "price": 499,
+    "duration": 4,
+    "rating": 4.6,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Siem Reap",
+        "description": "Land in Siem Reap, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Siem Reap",
+        "description": "A guided walk through Siem Reap's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Siem Reap."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Siem Reap."
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "destination": "Luang Prabang, Laos",
+    "image": "https://picsum.photos/seed/luangprabang11/800/600",
+    "badge": "Trending",
+    "price": 2899,
+    "duration": 3,
+    "rating": 4.4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Luang Prabang",
+        "description": "Land in Luang Prabang, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Luang Prabang",
+        "description": "A guided walk through Luang Prabang's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Luang Prabang."
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "destination": "Singapore, Singapore",
+    "image": "https://picsum.photos/seed/singapore12/800/600",
+    "badge": "Luxury",
+    "price": 1649,
+    "duration": 4,
+    "rating": 4.9,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Singapore",
+        "description": "Land in Singapore, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Singapore",
+        "description": "A guided walk through Singapore's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Singapore."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Singapore."
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "destination": "Kuala Lumpur, Malaysia",
+    "image": "https://picsum.photos/seed/kualalumpur13/800/600",
+    "badge": "Best Seller",
+    "price": 2349,
+    "duration": 3,
+    "rating": 4.4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Kuala Lumpur",
+        "description": "Land in Kuala Lumpur, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Kuala Lumpur",
+        "description": "A guided walk through Kuala Lumpur's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Kuala Lumpur."
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "destination": "Seoul, South Korea",
+    "image": "https://picsum.photos/seed/seoul14/800/600",
+    "badge": "Eco Escape",
+    "price": 499,
+    "duration": 3,
+    "rating": 4.4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Seoul",
+        "description": "Land in Seoul, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Seoul",
+        "description": "A guided walk through Seoul's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Seoul."
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "destination": "Jeju, South Korea",
+    "image": "https://picsum.photos/seed/jeju15/800/600",
+    "badge": "Family Friendly",
+    "price": 1149,
+    "duration": 3,
+    "rating": 4.4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Jeju",
+        "description": "Land in Jeju, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Jeju",
+        "description": "A guided walk through Jeju's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Jeju."
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "destination": "Beijing, China",
+    "image": "https://picsum.photos/seed/beijing16/800/600",
+    "badge": "Trending",
+    "price": 1299,
+    "duration": 3,
+    "rating": 4.7,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Beijing",
+        "description": "Land in Beijing, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Beijing",
+        "description": "A guided walk through Beijing's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Beijing."
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "destination": "Shanghai, China",
+    "image": "https://picsum.photos/seed/shanghai17/800/600",
+    "badge": "Honeymoon",
+    "price": 599,
+    "duration": 4,
+    "rating": 4.6,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Shanghai",
+        "description": "Land in Shanghai, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Shanghai",
+        "description": "A guided walk through Shanghai's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Shanghai."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Shanghai."
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "destination": "Hong Kong, China",
+    "image": "https://picsum.photos/seed/hongkong18/800/600",
+    "badge": "Adventure",
+    "price": 1849,
+    "duration": 3,
+    "rating": 4.9,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Hong Kong",
+        "description": "Land in Hong Kong, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Hong Kong",
+        "description": "A guided walk through Hong Kong's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Hong Kong."
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "destination": "Taipei, Taiwan",
+    "image": "https://picsum.photos/seed/taipei19/800/600",
+    "badge": "Limited",
+    "price": 1299,
+    "duration": 4,
+    "rating": 4.5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Taipei",
+        "description": "Land in Taipei, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Taipei",
+        "description": "A guided walk through Taipei's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Taipei."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Taipei."
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "destination": "Kathmandu, Nepal",
+    "image": "https://picsum.photos/seed/kathmandu20/800/600",
+    "badge": "Limited",
+    "price": 2949,
+    "duration": 4,
+    "rating": 4.1,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Kathmandu",
+        "description": "Land in Kathmandu, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Kathmandu",
+        "description": "A guided walk through Kathmandu's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Kathmandu."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Kathmandu."
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "destination": "Pokhara, Nepal",
+    "image": "https://picsum.photos/seed/pokhara21/800/600",
+    "badge": "Eco Escape",
+    "price": 1999,
+    "duration": 4,
+    "rating": 4.1,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Pokhara",
+        "description": "Land in Pokhara, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Pokhara",
+        "description": "A guided walk through Pokhara's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Pokhara."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Pokhara."
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "destination": "Jaipur, India",
+    "image": "https://picsum.photos/seed/jaipur22/800/600",
+    "badge": "Best Seller",
+    "price": 399,
+    "duration": 3,
+    "rating": 5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Jaipur",
+        "description": "Land in Jaipur, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Jaipur",
+        "description": "A guided walk through Jaipur's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Jaipur."
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "destination": "Udaipur, India",
+    "image": "https://picsum.photos/seed/udaipur23/800/600",
+    "badge": "Family Friendly",
+    "price": 799,
+    "duration": 3,
+    "rating": 4.8,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Udaipur",
+        "description": "Land in Udaipur, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Udaipur",
+        "description": "A guided walk through Udaipur's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Udaipur."
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "destination": "Goa, India",
+    "image": "https://picsum.photos/seed/goa24/800/600",
+    "badge": "Editor's Choice",
+    "price": 999,
+    "duration": 3,
+    "rating": 4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Goa",
+        "description": "Land in Goa, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Goa",
+        "description": "A guided walk through Goa's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Goa."
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "destination": "Kerala, India",
+    "image": "https://picsum.photos/seed/kerala25/800/600",
+    "badge": "Trending",
+    "price": 2899,
+    "duration": 3,
+    "rating": 4.5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Kerala",
+        "description": "Land in Kerala, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Kerala",
+        "description": "A guided walk through Kerala's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Kerala."
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "destination": "Colombo, Sri Lanka",
+    "image": "https://picsum.photos/seed/colombo26/800/600",
+    "badge": "Popular",
+    "price": 2549,
+    "duration": 4,
+    "rating": 4.9,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Colombo",
+        "description": "Land in Colombo, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Colombo",
+        "description": "A guided walk through Colombo's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Colombo."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Colombo."
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "destination": "Malé, Maldives",
+    "image": "https://picsum.photos/seed/mal27/800/600",
+    "badge": "Best Seller",
+    "price": 2899,
+    "duration": 3,
+    "rating": 4.5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Malé",
+        "description": "Land in Malé, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Malé",
+        "description": "A guided walk through Malé's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Malé."
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "destination": "Dubai, UAE",
+    "image": "https://picsum.photos/seed/dubai28/800/600",
+    "badge": "Best Seller",
+    "price": 599,
+    "duration": 4,
+    "rating": 4.3,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Dubai",
+        "description": "Land in Dubai, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Dubai",
+        "description": "A guided walk through Dubai's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Dubai."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Dubai."
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "destination": "Abu Dhabi, UAE",
+    "image": "https://picsum.photos/seed/abudhabi29/800/600",
+    "badge": "Editor's Choice",
+    "price": 449,
+    "duration": 4,
+    "rating": 4.8,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Abu Dhabi",
+        "description": "Land in Abu Dhabi, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Abu Dhabi",
+        "description": "A guided walk through Abu Dhabi's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Abu Dhabi."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Abu Dhabi."
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "destination": "Doha, Qatar",
+    "image": "https://picsum.photos/seed/doha30/800/600",
+    "badge": "New",
+    "price": 2799,
+    "duration": 4,
+    "rating": 4.2,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Doha",
+        "description": "Land in Doha, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Doha",
+        "description": "A guided walk through Doha's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Doha."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Doha."
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "destination": "Muscat, Oman",
+    "image": "https://picsum.photos/seed/muscat31/800/600",
+    "badge": "Popular",
+    "price": 649,
+    "duration": 3,
+    "rating": 4.8,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Muscat",
+        "description": "Land in Muscat, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Muscat",
+        "description": "A guided walk through Muscat's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Muscat."
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "destination": "Petra, Jordan",
+    "image": "https://picsum.photos/seed/petra32/800/600",
+    "badge": "Popular",
+    "price": 2449,
+    "duration": 3,
+    "rating": 4.5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Petra",
+        "description": "Land in Petra, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Petra",
+        "description": "A guided walk through Petra's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Petra."
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "destination": "Amman, Jordan",
+    "image": "https://picsum.photos/seed/amman33/800/600",
+    "badge": "Honeymoon",
+    "price": 649,
+    "duration": 3,
+    "rating": 4.8,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Amman",
+        "description": "Land in Amman, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Amman",
+        "description": "A guided walk through Amman's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Amman."
+      }
+    ]
+  },
+  {
+    "id": "34",
+    "destination": "Jerusalem, Israel",
+    "image": "https://picsum.photos/seed/jerusalem34/800/600",
+    "badge": "Editor's Choice",
+    "price": 2199,
+    "duration": 3,
+    "rating": 5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Jerusalem",
+        "description": "Land in Jerusalem, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Jerusalem",
+        "description": "A guided walk through Jerusalem's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Jerusalem."
+      }
+    ]
+  },
+  {
+    "id": "35",
+    "destination": "Istanbul, Turkey",
+    "image": "https://picsum.photos/seed/istanbul35/800/600",
+    "badge": "Best Seller",
+    "price": 1149,
+    "duration": 4,
+    "rating": 4.8,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Istanbul",
+        "description": "Land in Istanbul, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Istanbul",
+        "description": "A guided walk through Istanbul's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Istanbul."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Istanbul."
+      }
+    ]
+  },
+  {
+    "id": "36",
+    "destination": "Cappadocia, Turkey",
+    "image": "https://picsum.photos/seed/cappadocia36/800/600",
+    "badge": "New",
+    "price": 2599,
+    "duration": 3,
+    "rating": 4.5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Cappadocia",
+        "description": "Land in Cappadocia, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Cappadocia",
+        "description": "A guided walk through Cappadocia's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Cappadocia."
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "destination": "Antalya, Turkey",
+    "image": "https://picsum.photos/seed/antalya37/800/600",
+    "badge": "Popular",
+    "price": 1799,
+    "duration": 3,
+    "rating": 4.4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Antalya",
+        "description": "Land in Antalya, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Antalya",
+        "description": "A guided walk through Antalya's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Antalya."
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "destination": "Cairo, Egypt",
+    "image": "https://picsum.photos/seed/cairo38/800/600",
+    "badge": "Best Seller",
+    "price": 1949,
+    "duration": 4,
+    "rating": 4.6,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Cairo",
+        "description": "Land in Cairo, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Cairo",
+        "description": "A guided walk through Cairo's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Cairo."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Cairo."
+      }
+    ]
+  },
+  {
+    "id": "39",
+    "destination": "Luxor, Egypt",
+    "image": "https://picsum.photos/seed/luxor39/800/600",
+    "badge": "Limited",
+    "price": 1399,
+    "duration": 3,
+    "rating": 4.1,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Luxor",
+        "description": "Land in Luxor, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Luxor",
+        "description": "A guided walk through Luxor's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Luxor."
+      }
+    ]
+  },
+  {
+    "id": "40",
+    "destination": "Marrakech, Morocco",
+    "image": "https://picsum.photos/seed/marrakech40/800/600",
+    "badge": "Adventure",
+    "price": 899,
+    "duration": 3,
+    "rating": 4.8,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Marrakech",
+        "description": "Land in Marrakech, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Marrakech",
+        "description": "A guided walk through Marrakech's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Marrakech."
+      }
+    ]
+  },
+  {
+    "id": "41",
+    "destination": "Fes, Morocco",
+    "image": "https://picsum.photos/seed/fes41/800/600",
+    "badge": "Family Friendly",
+    "price": 1599,
+    "duration": 3,
+    "rating": 4.1,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Fes",
+        "description": "Land in Fes, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Fes",
+        "description": "A guided walk through Fes's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Fes."
+      }
+    ]
+  },
+  {
+    "id": "42",
+    "destination": "Casablanca, Morocco",
+    "image": "https://picsum.photos/seed/casablanca42/800/600",
+    "badge": "Deal",
+    "price": 1599,
+    "duration": 3,
+    "rating": 4.2,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Casablanca",
+        "description": "Land in Casablanca, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Casablanca",
+        "description": "A guided walk through Casablanca's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Casablanca."
+      }
+    ]
+  },
+  {
+    "id": "43",
+    "destination": "Cape Town, South Africa",
+    "image": "https://picsum.photos/seed/capetown43/800/600",
+    "badge": "Deal",
+    "price": 399,
+    "duration": 4,
+    "rating": 4.3,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Cape Town",
+        "description": "Land in Cape Town, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Cape Town",
+        "description": "A guided walk through Cape Town's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Cape Town."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Cape Town."
+      }
+    ]
+  },
+  {
+    "id": "44",
+    "destination": "Johannesburg, South Africa",
+    "image": "https://picsum.photos/seed/johannesburg44/800/600",
+    "badge": "Family Friendly",
+    "price": 399,
+    "duration": 3,
+    "rating": 4.4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Johannesburg",
+        "description": "Land in Johannesburg, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Johannesburg",
+        "description": "A guided walk through Johannesburg's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Johannesburg."
+      }
+    ]
+  },
+  {
+    "id": "45",
+    "destination": "Nairobi, Kenya",
+    "image": "https://picsum.photos/seed/nairobi45/800/600",
+    "badge": "Limited",
+    "price": 799,
+    "duration": 4,
+    "rating": 4.6,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Nairobi",
+        "description": "Land in Nairobi, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Nairobi",
+        "description": "A guided walk through Nairobi's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Nairobi."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Nairobi."
+      }
+    ]
+  },
+  {
+    "id": "46",
+    "destination": "Zanzibar, Tanzania",
+    "image": "https://picsum.photos/seed/zanzibar46/800/600",
+    "badge": "Best Seller",
+    "price": 999,
+    "duration": 3,
+    "rating": 4.2,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Zanzibar",
+        "description": "Land in Zanzibar, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Zanzibar",
+        "description": "A guided walk through Zanzibar's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Zanzibar."
+      }
+    ]
+  },
+  {
+    "id": "47",
+    "destination": "Victoria Falls, Zambia",
+    "image": "https://picsum.photos/seed/victoriafalls47/800/600",
+    "badge": "New",
+    "price": 2949,
+    "duration": 4,
+    "rating": 4.5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Victoria Falls",
+        "description": "Land in Victoria Falls, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Victoria Falls",
+        "description": "A guided walk through Victoria Falls's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Victoria Falls."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Victoria Falls."
+      }
+    ]
+  },
+  {
+    "id": "48",
+    "destination": "Windhoek, Namibia",
+    "image": "https://picsum.photos/seed/windhoek48/800/600",
+    "badge": "Adventure",
+    "price": 2099,
+    "duration": 4,
+    "rating": 5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Windhoek",
+        "description": "Land in Windhoek, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Windhoek",
+        "description": "A guided walk through Windhoek's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Windhoek."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Windhoek."
+      }
+    ]
+  },
+  {
+    "id": "49",
+    "destination": "Athens, Greece",
+    "image": "https://picsum.photos/seed/athens49/800/600",
+    "badge": "Family Friendly",
+    "price": 1249,
+    "duration": 3,
+    "rating": 4.7,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Athens",
+        "description": "Land in Athens, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Athens",
+        "description": "A guided walk through Athens's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Athens."
+      }
+    ]
+  },
+  {
+    "id": "50",
+    "destination": "Santorini, Greece",
+    "image": "https://picsum.photos/seed/santorini50/800/600",
+    "badge": "Deal",
+    "price": 299,
+    "duration": 3,
+    "rating": 4.3,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Santorini",
+        "description": "Land in Santorini, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Santorini",
+        "description": "A guided walk through Santorini's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Santorini."
+      }
+    ]
+  },
+  {
+    "id": "51",
+    "destination": "Mykonos, Greece",
+    "image": "https://picsum.photos/seed/mykonos51/800/600",
+    "badge": "Eco Escape",
+    "price": 1349,
+    "duration": 3,
+    "rating": 4.4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Mykonos",
+        "description": "Land in Mykonos, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Mykonos",
+        "description": "A guided walk through Mykonos's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Mykonos."
+      }
+    ]
+  },
+  {
+    "id": "52",
+    "destination": "Crete, Greece",
+    "image": "https://picsum.photos/seed/crete52/800/600",
+    "badge": "Honeymoon",
+    "price": 1949,
+    "duration": 3,
+    "rating": 4.7,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Crete",
+        "description": "Land in Crete, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Crete",
+        "description": "A guided walk through Crete's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Crete."
+      }
+    ]
+  },
+  {
+    "id": "53",
+    "destination": "Rome, Italy",
+    "image": "https://picsum.photos/seed/rome53/800/600",
+    "badge": "New",
+    "price": 1099,
+    "duration": 4,
+    "rating": 4.7,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Rome",
+        "description": "Land in Rome, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Rome",
+        "description": "A guided walk through Rome's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Rome."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Rome."
+      }
+    ]
+  },
+  {
+    "id": "54",
+    "destination": "Florence, Italy",
+    "image": "https://picsum.photos/seed/florence54/800/600",
+    "badge": "Luxury",
+    "price": 2199,
+    "duration": 4,
+    "rating": 4.3,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Florence",
+        "description": "Land in Florence, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Florence",
+        "description": "A guided walk through Florence's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Florence."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Florence."
+      }
+    ]
+  },
+  {
+    "id": "55",
+    "destination": "Venice, Italy",
+    "image": "https://picsum.photos/seed/venice55/800/600",
+    "badge": "Family Friendly",
+    "price": 2899,
+    "duration": 4,
+    "rating": 4.3,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Venice",
+        "description": "Land in Venice, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Venice",
+        "description": "A guided walk through Venice's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Venice."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Venice."
+      }
+    ]
+  },
+  {
+    "id": "56",
+    "destination": "Milan, Italy",
+    "image": "https://picsum.photos/seed/milan56/800/600",
+    "badge": "Eco Escape",
+    "price": 2399,
+    "duration": 4,
+    "rating": 4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Milan",
+        "description": "Land in Milan, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Milan",
+        "description": "A guided walk through Milan's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Milan."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Milan."
+      }
+    ]
+  },
+  {
+    "id": "57",
+    "destination": "Naples, Italy",
+    "image": "https://picsum.photos/seed/naples57/800/600",
+    "badge": "Best Seller",
+    "price": 699,
+    "duration": 4,
+    "rating": 4.5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Naples",
+        "description": "Land in Naples, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Naples",
+        "description": "A guided walk through Naples's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Naples."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Naples."
+      }
+    ]
+  },
+  {
+    "id": "58",
+    "destination": "Amalfi, Italy",
+    "image": "https://picsum.photos/seed/amalfi58/800/600",
+    "badge": "Best Seller",
+    "price": 1049,
+    "duration": 3,
+    "rating": 4.8,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Amalfi",
+        "description": "Land in Amalfi, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Amalfi",
+        "description": "A guided walk through Amalfi's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Amalfi."
+      }
+    ]
+  },
+  {
+    "id": "59",
+    "destination": "Cinque Terre, Italy",
+    "image": "https://picsum.photos/seed/cinqueterre59/800/600",
+    "badge": "Deal",
+    "price": 2699,
+    "duration": 3,
+    "rating": 4.9,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Cinque Terre",
+        "description": "Land in Cinque Terre, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Cinque Terre",
+        "description": "A guided walk through Cinque Terre's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Cinque Terre."
+      }
+    ]
+  },
+  {
+    "id": "60",
+    "destination": "Barcelona, Spain",
+    "image": "https://picsum.photos/seed/barcelona60/800/600",
+    "badge": "Popular",
+    "price": 2349,
+    "duration": 3,
+    "rating": 4.7,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Barcelona",
+        "description": "Land in Barcelona, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Barcelona",
+        "description": "A guided walk through Barcelona's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Barcelona."
+      }
+    ]
+  },
+  {
+    "id": "61",
+    "destination": "Madrid, Spain",
+    "image": "https://picsum.photos/seed/madrid61/800/600",
+    "badge": "Best Seller",
+    "price": 1849,
+    "duration": 3,
+    "rating": 4.1,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Madrid",
+        "description": "Land in Madrid, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Madrid",
+        "description": "A guided walk through Madrid's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Madrid."
+      }
+    ]
+  },
+  {
+    "id": "62",
+    "destination": "Seville, Spain",
+    "image": "https://picsum.photos/seed/seville62/800/600",
+    "badge": "Best Seller",
+    "price": 649,
+    "duration": 3,
+    "rating": 4.4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Seville",
+        "description": "Land in Seville, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Seville",
+        "description": "A guided walk through Seville's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Seville."
+      }
+    ]
+  },
+  {
+    "id": "63",
+    "destination": "Granada, Spain",
+    "image": "https://picsum.photos/seed/granada63/800/600",
+    "badge": "Trending",
+    "price": 2399,
+    "duration": 3,
+    "rating": 4.6,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Granada",
+        "description": "Land in Granada, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Granada",
+        "description": "A guided walk through Granada's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Granada."
+      }
+    ]
+  },
+  {
+    "id": "64",
+    "destination": "Valencia, Spain",
+    "image": "https://picsum.photos/seed/valencia64/800/600",
+    "badge": "Limited",
+    "price": 1249,
+    "duration": 4,
+    "rating": 4.7,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Valencia",
+        "description": "Land in Valencia, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Valencia",
+        "description": "A guided walk through Valencia's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Valencia."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Valencia."
+      }
+    ]
+  },
+  {
+    "id": "65",
+    "destination": "Ibiza, Spain",
+    "image": "https://picsum.photos/seed/ibiza65/800/600",
+    "badge": "Family Friendly",
+    "price": 2349,
+    "duration": 4,
+    "rating": 4.7,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Ibiza",
+        "description": "Land in Ibiza, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Ibiza",
+        "description": "A guided walk through Ibiza's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Ibiza."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Ibiza."
+      }
+    ]
+  },
+  {
+    "id": "66",
+    "destination": "Lisbon, Portugal",
+    "image": "https://picsum.photos/seed/lisbon66/800/600",
+    "badge": "Editor's Choice",
+    "price": 2249,
+    "duration": 3,
+    "rating": 4.5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Lisbon",
+        "description": "Land in Lisbon, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Lisbon",
+        "description": "A guided walk through Lisbon's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Lisbon."
+      }
+    ]
+  },
+  {
+    "id": "67",
+    "destination": "Porto, Portugal",
+    "image": "https://picsum.photos/seed/porto67/800/600",
+    "badge": "Best Seller",
+    "price": 949,
+    "duration": 4,
+    "rating": 4.8,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Porto",
+        "description": "Land in Porto, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Porto",
+        "description": "A guided walk through Porto's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Porto."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Porto."
+      }
+    ]
+  },
+  {
+    "id": "68",
+    "destination": "Madeira, Portugal",
+    "image": "https://picsum.photos/seed/madeira68/800/600",
+    "badge": "Popular",
+    "price": 649,
+    "duration": 4,
+    "rating": 4.7,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Madeira",
+        "description": "Land in Madeira, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Madeira",
+        "description": "A guided walk through Madeira's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Madeira."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Madeira."
+      }
+    ]
+  },
+  {
+    "id": "69",
+    "destination": "Paris, France",
+    "image": "https://picsum.photos/seed/paris69/800/600",
+    "badge": "Luxury",
+    "price": 2749,
+    "duration": 4,
+    "rating": 4.2,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Paris",
+        "description": "Land in Paris, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Paris",
+        "description": "A guided walk through Paris's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Paris."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Paris."
+      }
+    ]
+  },
+  {
+    "id": "70",
+    "destination": "Nice, France",
+    "image": "https://picsum.photos/seed/nice70/800/600",
+    "badge": "Popular",
+    "price": 2299,
+    "duration": 4,
+    "rating": 4.1,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Nice",
+        "description": "Land in Nice, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Nice",
+        "description": "A guided walk through Nice's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Nice."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Nice."
+      }
+    ]
+  },
+  {
+    "id": "71",
+    "destination": "Lyon, France",
+    "image": "https://picsum.photos/seed/lyon71/800/600",
+    "badge": "Deal",
+    "price": 2399,
+    "duration": 3,
+    "rating": 4.9,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Lyon",
+        "description": "Land in Lyon, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Lyon",
+        "description": "A guided walk through Lyon's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Lyon."
+      }
+    ]
+  },
+  {
+    "id": "72",
+    "destination": "Bordeaux, France",
+    "image": "https://picsum.photos/seed/bordeaux72/800/600",
+    "badge": "Eco Escape",
+    "price": 2099,
+    "duration": 4,
+    "rating": 4.9,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Bordeaux",
+        "description": "Land in Bordeaux, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Bordeaux",
+        "description": "A guided walk through Bordeaux's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Bordeaux."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Bordeaux."
+      }
+    ]
+  },
+  {
+    "id": "73",
+    "destination": "Marseille, France",
+    "image": "https://picsum.photos/seed/marseille73/800/600",
+    "badge": "Deal",
+    "price": 1349,
+    "duration": 3,
+    "rating": 4.6,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Marseille",
+        "description": "Land in Marseille, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Marseille",
+        "description": "A guided walk through Marseille's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Marseille."
+      }
+    ]
+  },
+  {
+    "id": "74",
+    "destination": "London, UK",
+    "image": "https://picsum.photos/seed/london74/800/600",
+    "badge": "Honeymoon",
+    "price": 2999,
+    "duration": 3,
+    "rating": 4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in London",
+        "description": "Land in London, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering London",
+        "description": "A guided walk through London's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of London."
+      }
+    ]
+  },
+  {
+    "id": "75",
+    "destination": "Edinburgh, UK",
+    "image": "https://picsum.photos/seed/edinburgh75/800/600",
+    "badge": "Eco Escape",
+    "price": 599,
+    "duration": 3,
+    "rating": 4.8,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Edinburgh",
+        "description": "Land in Edinburgh, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Edinburgh",
+        "description": "A guided walk through Edinburgh's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Edinburgh."
+      }
+    ]
+  },
+  {
+    "id": "76",
+    "destination": "Bath, UK",
+    "image": "https://picsum.photos/seed/bath76/800/600",
+    "badge": "Limited",
+    "price": 999,
+    "duration": 3,
+    "rating": 5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Bath",
+        "description": "Land in Bath, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Bath",
+        "description": "A guided walk through Bath's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Bath."
+      }
+    ]
+  },
+  {
+    "id": "77",
+    "destination": "Dublin, Ireland",
+    "image": "https://picsum.photos/seed/dublin77/800/600",
+    "badge": "Best Seller",
+    "price": 1599,
+    "duration": 3,
+    "rating": 4.9,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Dublin",
+        "description": "Land in Dublin, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Dublin",
+        "description": "A guided walk through Dublin's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Dublin."
+      }
+    ]
+  },
+  {
+    "id": "78",
+    "destination": "Galway, Ireland",
+    "image": "https://picsum.photos/seed/galway78/800/600",
+    "badge": "Editor's Choice",
+    "price": 2149,
+    "duration": 3,
+    "rating": 4.3,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Galway",
+        "description": "Land in Galway, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Galway",
+        "description": "A guided walk through Galway's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Galway."
+      }
+    ]
+  },
+  {
+    "id": "79",
+    "destination": "Amsterdam, Netherlands",
+    "image": "https://picsum.photos/seed/amsterdam79/800/600",
+    "badge": "Popular",
+    "price": 2299,
+    "duration": 4,
+    "rating": 4.1,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Amsterdam",
+        "description": "Land in Amsterdam, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Amsterdam",
+        "description": "A guided walk through Amsterdam's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Amsterdam."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Amsterdam."
+      }
+    ]
+  },
+  {
+    "id": "80",
+    "destination": "Brussels, Belgium",
+    "image": "https://picsum.photos/seed/brussels80/800/600",
+    "badge": "Editor's Choice",
+    "price": 1549,
+    "duration": 4,
+    "rating": 4.7,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Brussels",
+        "description": "Land in Brussels, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Brussels",
+        "description": "A guided walk through Brussels's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Brussels."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Brussels."
+      }
+    ]
+  },
+  {
+    "id": "81",
+    "destination": "Bruges, Belgium",
+    "image": "https://picsum.photos/seed/bruges81/800/600",
+    "badge": "New",
+    "price": 1549,
+    "duration": 3,
+    "rating": 4.3,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Bruges",
+        "description": "Land in Bruges, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Bruges",
+        "description": "A guided walk through Bruges's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Bruges."
+      }
+    ]
+  },
+  {
+    "id": "82",
+    "destination": "Berlin, Germany",
+    "image": "https://picsum.photos/seed/berlin82/800/600",
+    "badge": "Deal",
+    "price": 2499,
+    "duration": 4,
+    "rating": 4.8,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Berlin",
+        "description": "Land in Berlin, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Berlin",
+        "description": "A guided walk through Berlin's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Berlin."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Berlin."
+      }
+    ]
+  },
+  {
+    "id": "83",
+    "destination": "Munich, Germany",
+    "image": "https://picsum.photos/seed/munich83/800/600",
+    "badge": "Trending",
+    "price": 1349,
+    "duration": 4,
+    "rating": 4.3,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Munich",
+        "description": "Land in Munich, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Munich",
+        "description": "A guided walk through Munich's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Munich."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Munich."
+      }
+    ]
+  },
+  {
+    "id": "84",
+    "destination": "Hamburg, Germany",
+    "image": "https://picsum.photos/seed/hamburg84/800/600",
+    "badge": "Honeymoon",
+    "price": 2699,
+    "duration": 4,
+    "rating": 4.1,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Hamburg",
+        "description": "Land in Hamburg, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Hamburg",
+        "description": "A guided walk through Hamburg's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Hamburg."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Hamburg."
+      }
+    ]
+  },
+  {
+    "id": "85",
+    "destination": "Vienna, Austria",
+    "image": "https://picsum.photos/seed/vienna85/800/600",
+    "badge": "Limited",
+    "price": 1199,
+    "duration": 4,
+    "rating": 4.3,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Vienna",
+        "description": "Land in Vienna, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Vienna",
+        "description": "A guided walk through Vienna's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Vienna."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Vienna."
+      }
+    ]
+  },
+  {
+    "id": "86",
+    "destination": "Salzburg, Austria",
+    "image": "https://picsum.photos/seed/salzburg86/800/600",
+    "badge": "Popular",
+    "price": 2999,
+    "duration": 3,
+    "rating": 5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Salzburg",
+        "description": "Land in Salzburg, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Salzburg",
+        "description": "A guided walk through Salzburg's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Salzburg."
+      }
+    ]
+  },
+  {
+    "id": "87",
+    "destination": "Zurich, Switzerland",
+    "image": "https://picsum.photos/seed/zurich87/800/600",
+    "badge": "Deal",
+    "price": 649,
+    "duration": 3,
+    "rating": 4.2,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Zurich",
+        "description": "Land in Zurich, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Zurich",
+        "description": "A guided walk through Zurich's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Zurich."
+      }
+    ]
+  },
+  {
+    "id": "88",
+    "destination": "Geneva, Switzerland",
+    "image": "https://picsum.photos/seed/geneva88/800/600",
+    "badge": "Editor's Choice",
+    "price": 1549,
+    "duration": 3,
+    "rating": 4.3,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Geneva",
+        "description": "Land in Geneva, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Geneva",
+        "description": "A guided walk through Geneva's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Geneva."
+      }
+    ]
+  },
+  {
+    "id": "89",
+    "destination": "Interlaken, Switzerland",
+    "image": "https://picsum.photos/seed/interlaken89/800/600",
+    "badge": "Trending",
+    "price": 799,
+    "duration": 3,
+    "rating": 4.5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Interlaken",
+        "description": "Land in Interlaken, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Interlaken",
+        "description": "A guided walk through Interlaken's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Interlaken."
+      }
+    ]
+  },
+  {
+    "id": "90",
+    "destination": "Prague, Czechia",
+    "image": "https://picsum.photos/seed/prague90/800/600",
+    "badge": "Honeymoon",
+    "price": 2449,
+    "duration": 3,
+    "rating": 4.6,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Prague",
+        "description": "Land in Prague, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Prague",
+        "description": "A guided walk through Prague's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Prague."
+      }
+    ]
+  },
+  {
+    "id": "91",
+    "destination": "Budapest, Hungary",
+    "image": "https://picsum.photos/seed/budapest91/800/600",
+    "badge": "Deal",
+    "price": 1449,
+    "duration": 3,
+    "rating": 4.9,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Budapest",
+        "description": "Land in Budapest, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Budapest",
+        "description": "A guided walk through Budapest's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Budapest."
+      }
+    ]
+  },
+  {
+    "id": "92",
+    "destination": "Krakow, Poland",
+    "image": "https://picsum.photos/seed/krakow92/800/600",
+    "badge": "Limited",
+    "price": 2599,
+    "duration": 3,
+    "rating": 4.6,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Krakow",
+        "description": "Land in Krakow, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Krakow",
+        "description": "A guided walk through Krakow's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Krakow."
+      }
+    ]
+  },
+  {
+    "id": "93",
+    "destination": "Warsaw, Poland",
+    "image": "https://picsum.photos/seed/warsaw93/800/600",
+    "badge": "Popular",
+    "price": 1899,
+    "duration": 4,
+    "rating": 4.4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Warsaw",
+        "description": "Land in Warsaw, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Warsaw",
+        "description": "A guided walk through Warsaw's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Warsaw."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Warsaw."
+      }
+    ]
+  },
+  {
+    "id": "94",
+    "destination": "Copenhagen, Denmark",
+    "image": "https://picsum.photos/seed/copenhagen94/800/600",
+    "badge": "Eco Escape",
+    "price": 849,
+    "duration": 3,
+    "rating": 4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Copenhagen",
+        "description": "Land in Copenhagen, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Copenhagen",
+        "description": "A guided walk through Copenhagen's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Copenhagen."
+      }
+    ]
+  },
+  {
+    "id": "95",
+    "destination": "Stockholm, Sweden",
+    "image": "https://picsum.photos/seed/stockholm95/800/600",
+    "badge": "Eco Escape",
+    "price": 2149,
+    "duration": 4,
+    "rating": 4.1,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Stockholm",
+        "description": "Land in Stockholm, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Stockholm",
+        "description": "A guided walk through Stockholm's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Stockholm."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Stockholm."
+      }
+    ]
+  },
+  {
+    "id": "96",
+    "destination": "Oslo, Norway",
+    "image": "https://picsum.photos/seed/oslo96/800/600",
+    "badge": "Limited",
+    "price": 2749,
+    "duration": 4,
+    "rating": 4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Oslo",
+        "description": "Land in Oslo, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Oslo",
+        "description": "A guided walk through Oslo's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Oslo."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Oslo."
+      }
+    ]
+  },
+  {
+    "id": "97",
+    "destination": "Bergen, Norway",
+    "image": "https://picsum.photos/seed/bergen97/800/600",
+    "badge": "Best Seller",
+    "price": 649,
+    "duration": 4,
+    "rating": 4.5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Bergen",
+        "description": "Land in Bergen, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Bergen",
+        "description": "A guided walk through Bergen's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Bergen."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Bergen."
+      }
+    ]
+  },
+  {
+    "id": "98",
+    "destination": "Helsinki, Finland",
+    "image": "https://picsum.photos/seed/helsinki98/800/600",
+    "badge": "New",
+    "price": 1799,
+    "duration": 3,
+    "rating": 4.5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Helsinki",
+        "description": "Land in Helsinki, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Helsinki",
+        "description": "A guided walk through Helsinki's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Helsinki."
+      }
+    ]
+  },
+  {
+    "id": "99",
+    "destination": "Reykjavik, Iceland",
+    "image": "https://picsum.photos/seed/reykjavik99/800/600",
+    "badge": "Trending",
+    "price": 1749,
+    "duration": 3,
+    "rating": 4.8,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Reykjavik",
+        "description": "Land in Reykjavik, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Reykjavik",
+        "description": "A guided walk through Reykjavik's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Reykjavik."
+      }
+    ]
+  },
+  {
+    "id": "100",
+    "destination": "Dubrovnik, Croatia",
+    "image": "https://picsum.photos/seed/dubrovnik100/800/600",
+    "badge": "Best Seller",
+    "price": 299,
+    "duration": 4,
+    "rating": 4.4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Dubrovnik",
+        "description": "Land in Dubrovnik, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Dubrovnik",
+        "description": "A guided walk through Dubrovnik's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Dubrovnik."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Dubrovnik."
+      }
+    ]
+  },
+  {
+    "id": "101",
+    "destination": "Split, Croatia",
+    "image": "https://picsum.photos/seed/split101/800/600",
+    "badge": "Popular",
+    "price": 1599,
+    "duration": 3,
+    "rating": 4.1,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Split",
+        "description": "Land in Split, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Split",
+        "description": "A guided walk through Split's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Split."
+      }
+    ]
+  },
+  {
+    "id": "102",
+    "destination": "Ljubljana, Slovenia",
+    "image": "https://picsum.photos/seed/ljubljana102/800/600",
+    "badge": "Trending",
+    "price": 999,
+    "duration": 4,
+    "rating": 4.2,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Ljubljana",
+        "description": "Land in Ljubljana, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Ljubljana",
+        "description": "A guided walk through Ljubljana's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Ljubljana."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Ljubljana."
+      }
+    ]
+  },
+  {
+    "id": "103",
+    "destination": "New York, USA",
+    "image": "https://picsum.photos/seed/newyork103/800/600",
+    "badge": "Editor's Choice",
+    "price": 299,
+    "duration": 3,
+    "rating": 4.9,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in New York",
+        "description": "Land in New York, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering New York",
+        "description": "A guided walk through New York's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of New York."
+      }
+    ]
+  },
+  {
+    "id": "104",
+    "destination": "San Francisco, USA",
+    "image": "https://picsum.photos/seed/sanfrancisco104/800/600",
+    "badge": "Honeymoon",
+    "price": 2099,
+    "duration": 3,
+    "rating": 4.4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in San Francisco",
+        "description": "Land in San Francisco, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering San Francisco",
+        "description": "A guided walk through San Francisco's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of San Francisco."
+      }
+    ]
+  },
+  {
+    "id": "105",
+    "destination": "Los Angeles, USA",
+    "image": "https://picsum.photos/seed/losangeles105/800/600",
+    "badge": "Eco Escape",
+    "price": 599,
+    "duration": 4,
+    "rating": 4.2,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Los Angeles",
+        "description": "Land in Los Angeles, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Los Angeles",
+        "description": "A guided walk through Los Angeles's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Los Angeles."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Los Angeles."
+      }
+    ]
+  },
+  {
+    "id": "106",
+    "destination": "Las Vegas, USA",
+    "image": "https://picsum.photos/seed/lasvegas106/800/600",
+    "badge": "Editor's Choice",
+    "price": 849,
+    "duration": 3,
+    "rating": 5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Las Vegas",
+        "description": "Land in Las Vegas, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Las Vegas",
+        "description": "A guided walk through Las Vegas's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Las Vegas."
+      }
+    ]
+  },
+  {
+    "id": "107",
+    "destination": "Miami, USA",
+    "image": "https://picsum.photos/seed/miami107/800/600",
+    "badge": "Eco Escape",
+    "price": 2999,
+    "duration": 4,
+    "rating": 4.5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Miami",
+        "description": "Land in Miami, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Miami",
+        "description": "A guided walk through Miami's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Miami."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Miami."
+      }
+    ]
+  },
+  {
+    "id": "108",
+    "destination": "Chicago, USA",
+    "image": "https://picsum.photos/seed/chicago108/800/600",
+    "badge": "Limited",
+    "price": 749,
+    "duration": 4,
+    "rating": 4.9,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Chicago",
+        "description": "Land in Chicago, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Chicago",
+        "description": "A guided walk through Chicago's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Chicago."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Chicago."
+      }
+    ]
+  },
+  {
+    "id": "109",
+    "destination": "New Orleans, USA",
+    "image": "https://picsum.photos/seed/neworleans109/800/600",
+    "badge": "Adventure",
+    "price": 1149,
+    "duration": 3,
+    "rating": 4.9,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in New Orleans",
+        "description": "Land in New Orleans, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering New Orleans",
+        "description": "A guided walk through New Orleans's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of New Orleans."
+      }
+    ]
+  },
+  {
+    "id": "110",
+    "destination": "Seattle, USA",
+    "image": "https://picsum.photos/seed/seattle110/800/600",
+    "badge": "New",
+    "price": 899,
+    "duration": 4,
+    "rating": 4.8,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Seattle",
+        "description": "Land in Seattle, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Seattle",
+        "description": "A guided walk through Seattle's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Seattle."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Seattle."
+      }
+    ]
+  },
+  {
+    "id": "111",
+    "destination": "Honolulu, USA",
+    "image": "https://picsum.photos/seed/honolulu111/800/600",
+    "badge": "Best Seller",
+    "price": 1149,
+    "duration": 3,
+    "rating": 4.4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Honolulu",
+        "description": "Land in Honolulu, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Honolulu",
+        "description": "A guided walk through Honolulu's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Honolulu."
+      }
+    ]
+  },
+  {
+    "id": "112",
+    "destination": "Toronto, Canada",
+    "image": "https://picsum.photos/seed/toronto112/800/600",
+    "badge": "Popular",
+    "price": 749,
+    "duration": 3,
+    "rating": 4.8,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Toronto",
+        "description": "Land in Toronto, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Toronto",
+        "description": "A guided walk through Toronto's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Toronto."
+      }
+    ]
+  },
+  {
+    "id": "113",
+    "destination": "Vancouver, Canada",
+    "image": "https://picsum.photos/seed/vancouver113/800/600",
+    "badge": "Best Seller",
+    "price": 849,
+    "duration": 3,
+    "rating": 4.4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Vancouver",
+        "description": "Land in Vancouver, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Vancouver",
+        "description": "A guided walk through Vancouver's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Vancouver."
+      }
+    ]
+  },
+  {
+    "id": "114",
+    "destination": "Montreal, Canada",
+    "image": "https://picsum.photos/seed/montreal114/800/600",
+    "badge": "Honeymoon",
+    "price": 699,
+    "duration": 3,
+    "rating": 4.7,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Montreal",
+        "description": "Land in Montreal, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Montreal",
+        "description": "A guided walk through Montreal's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Montreal."
+      }
+    ]
+  },
+  {
+    "id": "115",
+    "destination": "Banff, Canada",
+    "image": "https://picsum.photos/seed/banff115/800/600",
+    "badge": "Editor's Choice",
+    "price": 949,
+    "duration": 3,
+    "rating": 4.2,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Banff",
+        "description": "Land in Banff, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Banff",
+        "description": "A guided walk through Banff's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Banff."
+      }
+    ]
+  },
+  {
+    "id": "116",
+    "destination": "Mexico City, Mexico",
+    "image": "https://picsum.photos/seed/mexicocity116/800/600",
+    "badge": "Eco Escape",
+    "price": 2899,
+    "duration": 4,
+    "rating": 4.5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Mexico City",
+        "description": "Land in Mexico City, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Mexico City",
+        "description": "A guided walk through Mexico City's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Mexico City."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Mexico City."
+      }
+    ]
+  },
+  {
+    "id": "117",
+    "destination": "Cancun, Mexico",
+    "image": "https://picsum.photos/seed/cancun117/800/600",
+    "badge": "Popular",
+    "price": 2499,
+    "duration": 3,
+    "rating": 4.8,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Cancun",
+        "description": "Land in Cancun, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Cancun",
+        "description": "A guided walk through Cancun's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Cancun."
+      }
+    ]
+  },
+  {
+    "id": "118",
+    "destination": "Tulum, Mexico",
+    "image": "https://picsum.photos/seed/tulum118/800/600",
+    "badge": "New",
+    "price": 1949,
+    "duration": 4,
+    "rating": 4.3,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tulum",
+        "description": "Land in Tulum, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Tulum",
+        "description": "A guided walk through Tulum's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Tulum."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Tulum."
+      }
+    ]
+  },
+  {
+    "id": "119",
+    "destination": "Havana, Cuba",
+    "image": "https://picsum.photos/seed/havana119/800/600",
+    "badge": "Honeymoon",
+    "price": 2249,
+    "duration": 3,
+    "rating": 4.9,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Havana",
+        "description": "Land in Havana, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Havana",
+        "description": "A guided walk through Havana's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Havana."
+      }
+    ]
+  },
+  {
+    "id": "120",
+    "destination": "San Juan, Puerto Rico",
+    "image": "https://picsum.photos/seed/sanjuan120/800/600",
+    "badge": "Deal",
+    "price": 2549,
+    "duration": 3,
+    "rating": 4.6,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in San Juan",
+        "description": "Land in San Juan, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering San Juan",
+        "description": "A guided walk through San Juan's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of San Juan."
+      }
+    ]
+  },
+  {
+    "id": "121",
+    "destination": "Nassau, Bahamas",
+    "image": "https://picsum.photos/seed/nassau121/800/600",
+    "badge": "Honeymoon",
+    "price": 899,
+    "duration": 4,
+    "rating": 4.6,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Nassau",
+        "description": "Land in Nassau, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Nassau",
+        "description": "A guided walk through Nassau's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Nassau."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Nassau."
+      }
+    ]
+  },
+  {
+    "id": "122",
+    "destination": "Rio de Janeiro, Brazil",
+    "image": "https://picsum.photos/seed/riodejaneiro122/800/600",
+    "badge": "New",
+    "price": 2249,
+    "duration": 3,
+    "rating": 4.2,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Rio de Janeiro",
+        "description": "Land in Rio de Janeiro, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Rio de Janeiro",
+        "description": "A guided walk through Rio de Janeiro's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Rio de Janeiro."
+      }
+    ]
+  },
+  {
+    "id": "123",
+    "destination": "Buenos Aires, Argentina",
+    "image": "https://picsum.photos/seed/buenosaires123/800/600",
+    "badge": "Eco Escape",
+    "price": 2099,
+    "duration": 4,
+    "rating": 5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Buenos Aires",
+        "description": "Land in Buenos Aires, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Buenos Aires",
+        "description": "A guided walk through Buenos Aires's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Buenos Aires."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Buenos Aires."
+      }
+    ]
+  },
+  {
+    "id": "124",
+    "destination": "Patagonia, Chile",
+    "image": "https://picsum.photos/seed/patagonia124/800/600",
+    "badge": "Popular",
+    "price": 2749,
+    "duration": 3,
+    "rating": 4.5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Patagonia",
+        "description": "Land in Patagonia, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Patagonia",
+        "description": "A guided walk through Patagonia's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Patagonia."
+      }
+    ]
+  },
+  {
+    "id": "125",
+    "destination": "Santiago, Chile",
+    "image": "https://picsum.photos/seed/santiago125/800/600",
+    "badge": "Editor's Choice",
+    "price": 1549,
+    "duration": 3,
+    "rating": 4.6,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Santiago",
+        "description": "Land in Santiago, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Santiago",
+        "description": "A guided walk through Santiago's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Santiago."
+      }
+    ]
+  },
+  {
+    "id": "126",
+    "destination": "Lima, Peru",
+    "image": "https://picsum.photos/seed/lima126/800/600",
+    "badge": "Family Friendly",
+    "price": 1099,
+    "duration": 3,
+    "rating": 4.7,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Lima",
+        "description": "Land in Lima, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Lima",
+        "description": "A guided walk through Lima's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Lima."
+      }
+    ]
+  },
+  {
+    "id": "127",
+    "destination": "Cusco, Peru",
+    "image": "https://picsum.photos/seed/cusco127/800/600",
+    "badge": "Luxury",
+    "price": 1149,
+    "duration": 3,
+    "rating": 5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Cusco",
+        "description": "Land in Cusco, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Cusco",
+        "description": "A guided walk through Cusco's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Cusco."
+      }
+    ]
+  },
+  {
+    "id": "128",
+    "destination": "Cartagena, Colombia",
+    "image": "https://picsum.photos/seed/cartagena128/800/600",
+    "badge": "Honeymoon",
+    "price": 2299,
+    "duration": 3,
+    "rating": 4.3,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Cartagena",
+        "description": "Land in Cartagena, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Cartagena",
+        "description": "A guided walk through Cartagena's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Cartagena."
+      }
+    ]
+  },
+  {
+    "id": "129",
+    "destination": "Quito, Ecuador",
+    "image": "https://picsum.photos/seed/quito129/800/600",
+    "badge": "Honeymoon",
+    "price": 1549,
+    "duration": 3,
+    "rating": 4.3,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Quito",
+        "description": "Land in Quito, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Quito",
+        "description": "A guided walk through Quito's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Quito."
+      }
+    ]
+  },
+  {
+    "id": "130",
+    "destination": "La Paz, Bolivia",
+    "image": "https://picsum.photos/seed/lapaz130/800/600",
+    "badge": "New",
+    "price": 2149,
+    "duration": 4,
+    "rating": 4.5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in La Paz",
+        "description": "Land in La Paz, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering La Paz",
+        "description": "A guided walk through La Paz's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside La Paz."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of La Paz."
+      }
+    ]
+  },
+  {
+    "id": "131",
+    "destination": "Sydney, Australia",
+    "image": "https://picsum.photos/seed/sydney131/800/600",
+    "badge": "Editor's Choice",
+    "price": 899,
+    "duration": 4,
+    "rating": 4.4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Sydney",
+        "description": "Land in Sydney, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Sydney",
+        "description": "A guided walk through Sydney's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Sydney."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Sydney."
+      }
+    ]
+  },
+  {
+    "id": "132",
+    "destination": "Melbourne, Australia",
+    "image": "https://picsum.photos/seed/melbourne132/800/600",
+    "badge": "Trending",
+    "price": 449,
+    "duration": 4,
+    "rating": 4.3,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Melbourne",
+        "description": "Land in Melbourne, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Melbourne",
+        "description": "A guided walk through Melbourne's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Melbourne."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Melbourne."
+      }
+    ]
+  },
+  {
+    "id": "133",
+    "destination": "Cairns, Australia",
+    "image": "https://picsum.photos/seed/cairns133/800/600",
+    "badge": "Honeymoon",
+    "price": 1549,
+    "duration": 4,
+    "rating": 4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Cairns",
+        "description": "Land in Cairns, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Cairns",
+        "description": "A guided walk through Cairns's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Cairns."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Cairns."
+      }
+    ]
+  },
+  {
+    "id": "134",
+    "destination": "Auckland, New Zealand",
+    "image": "https://picsum.photos/seed/auckland134/800/600",
+    "badge": "Luxury",
+    "price": 2049,
+    "duration": 4,
+    "rating": 4.1,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Auckland",
+        "description": "Land in Auckland, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Auckland",
+        "description": "A guided walk through Auckland's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Auckland."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Auckland."
+      }
+    ]
+  },
+  {
+    "id": "135",
+    "destination": "Queenstown, New Zealand",
+    "image": "https://picsum.photos/seed/queenstown135/800/600",
+    "badge": "Popular",
+    "price": 2499,
+    "duration": 3,
+    "rating": 4.5,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Queenstown",
+        "description": "Land in Queenstown, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Queenstown",
+        "description": "A guided walk through Queenstown's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Queenstown."
+      }
+    ]
+  },
+  {
+    "id": "136",
+    "destination": "Nadi, Fiji",
+    "image": "https://picsum.photos/seed/nadi136/800/600",
+    "badge": "New",
+    "price": 999,
+    "duration": 4,
+    "rating": 4,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Nadi",
+        "description": "Land in Nadi, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Nadi",
+        "description": "A guided walk through Nadi's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Nature & Day Trip",
+        "description": "Full-day excursion to the scenic landscapes and viewpoints just outside Nadi."
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Nadi."
+      }
+    ]
+  },
+  {
+    "id": "137",
+    "destination": "Bora Bora, French Polynesia",
+    "image": "https://picsum.photos/seed/borabora137/800/600",
+    "badge": "Limited",
+    "price": 2999,
+    "duration": 3,
+    "rating": 4.3,
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Bora Bora",
+        "description": "Land in Bora Bora, check in to your hotel, and unwind with an evening stroll through the old town."
+      },
+      {
+        "day": 2,
+        "title": "Discovering Bora Bora",
+        "description": "A guided walk through Bora Bora's landmarks, markets, and museums, with tastings of local specialties."
+      },
+      {
+        "day": 3,
+        "title": "Leisure & Departure",
+        "description": "Free morning to relax or shop for souvenirs before your transfer out of Bora Bora."
+      }
+    ]
   }
 ]
