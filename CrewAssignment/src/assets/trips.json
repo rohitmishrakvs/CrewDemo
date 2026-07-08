@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "title": "Sunrise over Kyoto",
+    "location": "Kyoto, Japan",
+    "durationDays": 5,
+    "cover": "https://picsum.photos/seed/kyoto/800/600"
+  },
+  {
+    "id": "2",
+    "title": "Patagonia Trek",
+    "location": "Torres del Paine, Chile",
+    "durationDays": 8,
+    "cover": "https://picsum.photos/seed/patagonia/800/600"
+  },
+  {
+    "id": "3",
+    "title": "Amalfi Coast Drive",
+    "location": "Amalfi, Italy",
+    "durationDays": 4,
+    "cover": "https://picsum.photos/seed/amalfi/800/600"
+  }
+]
